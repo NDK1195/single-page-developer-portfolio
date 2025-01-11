@@ -10,9 +10,9 @@ module.exports = {
         grey: "#D9D9D9",
       },
       backgroundImage: {
-        "profile-mobile": "url('/images/image-profile-mobile.webp')",
-        "profile-tablet": "url('/images/image-profile-tablet.webp')",
-        "profile-desktop": "url('/images/image-profile-desktop.webp')",
+        "profile-mobile": "url('../images/image-profile-mobile.webp')",
+        "profile-tablet": "url('../images/image-profile-tablet.webp')",
+        "profile-desktop": "url('../images/image-profile-desktop.webp')",
       },
     },
   },
