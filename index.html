@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>Frontend Mentor | Single-page developer portfolio</title>
   </head>
-  <body class="bg-black-15 grid min-h-dvh grid-rows-[auto_1fr_auto]">
+  <body class="grid min-h-dvh grid-rows-[auto_1fr_auto] bg-black-15">
     <header class="relative mx-auto w-full max-w-[1110px]">
       <!-- pattern circle -->
       <img
@@ -41,7 +41,7 @@
 
       <!-- image profile -->
       <div
-        class="bg-profile-mobile md:bg-profile-tablet lg:bg-profile-desktop absolute right-1/2 top-0 h-[383px] w-[174px] translate-x-1/2 bg-contain bg-center bg-no-repeat md:right-0 md:h-[600px] md:w-[322px] md:translate-x-0 lg:h-[720px] lg:w-[445px]"
+        class="absolute right-1/2 top-0 h-[383px] w-[174px] translate-x-1/2 bg-profile-mobile bg-contain bg-center bg-no-repeat md:right-0 md:h-[600px] md:w-[322px] md:translate-x-0 md:bg-profile-tablet lg:h-[720px] lg:w-[445px] lg:bg-profile-desktop"
       ></div>
       <!-- image profile -->
 
@@ -142,7 +142,493 @@
       <!-- container -->
     </header>
 
-    <main class=""></main>
+    <main class="mx-auto w-full max-w-[1110px] px-4 md:px-8 xl:px-0">
+      <!-- skills -->
+      <section
+        class="mb-20 mt-10 grid grid-cols-1 gap-6 border-b border-white pb-10 md:mb-[100px] md:mt-[52px] md:grid-cols-2 md:gap-x-[7px] md:gap-y-[52px] md:border-b-0 md:pb-0 lg:mb-[140px] lg:mt-[72px] lg:grid-cols-3 lg:gap-x-[30px] lg:gap-y-[58px]"
+      >
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            HTML
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            4 Years Experience
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            CSS
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            4 Years Experience
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            Javascript
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            4 Years Experience
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            Accessibility
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            4 Years Experience
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            React
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            3 Years Experience
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-start md:gap-[14px]">
+          <h3
+            class="text-[32px] font-bold leading-10 tracking-[-1px] text-white md:text-5xl md:leading-[56px] md:tracking-[-1.5px]"
+          >
+            Sass
+          </h3>
+          <p
+            class="font-medium leading-[26px] text-grey md:text-lg md:leading-7"
+          >
+            3 Years Experience
+          </p>
+        </div>
+      </section>
+      <!-- skills -->
+
+      <!-- projects -->
+      <section class="mb-20 md:mb-[100px] lg:mb-[139px]">
+        <div
+          class="mb-10 flex items-center justify-between md:mb-[60px] lg:mb-20"
+        >
+          <h2
+            class="text-[40px] font-bold leading-10 tracking-[-1.136px] text-white md:text-[72px] md:leading-[72px] md:tracking-[-2.045px] lg:text-[88px] lg:leading-[88px] lg:tracking-[-2.5px]"
+          >
+            Projects
+          </h2>
+          <a
+            href="#footer"
+            class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+            >CONTACT ME</a
+          >
+        </div>
+
+        <!-- grid container -->
+        <div
+          class="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-x-5 md:gap-y-[60px] lg:gap-x-[30px] lg:gap-y-[69px]"
+        >
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-1-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-1-small.webp"
+                  alt="thumbnail project 1"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              DESIGN PORTFOLIO
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-2-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-2-small.webp"
+                  alt="thumbnail project 2"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              E-LEARNING LANDING PAGE
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-3-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-3-small.webp"
+                  alt="thumbnail project 3"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              TODO WEB APP
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-4-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-4-small.webp"
+                  alt="thumbnail project 4"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              ENTERTAINMENT WEB APP
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-5-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-5-small.webp"
+                  alt="thumbnail project 5"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              MEMORY GAME
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+
+          <!-- grid item -->
+          <div>
+            <div class="group relative mb-5 lg:cursor-pointer">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/thumbnail-project-6-large.webp"
+                />
+                <img
+                  src="./images/thumbnail-project-6-small.webp"
+                  alt="thumbnail project 6"
+                />
+              </picture>
+              <!-- thumbnail  -->
+              <div
+                class="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity lg:group-hover:opacity-75"
+              ></div>
+              <!-- thumbnail  -->
+
+              <!-- links -->
+              <div
+                class="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-12 opacity-0 transition-opacity lg:group-hover:flex lg:group-hover:opacity-100"
+              >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW PROJECT</a
+                >
+                <a
+                  href="#"
+                  class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                  >VIEW CODE</a
+                >
+              </div>
+              <!-- links -->
+            </div>
+
+            <h3 class="mb-[7px] text-2xl font-bold leading-8 text-white">
+              ART GALLERY SHOWCASE
+            </h3>
+
+            <div
+              class="mb-5 flex items-center gap-[18px] text-lg font-medium leading-7 text-grey lg:mb-0"
+            >
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="flex items-center gap-[30px] lg:hidden">
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW PROJECT</a
+              >
+              <a
+                href="#"
+                class="border-b-2 border-green pb-[10px] font-bold leading-[26px] tracking-[2.286px] text-white transition-colors hover:text-green"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <!-- grid item -->
+        </div>
+        <!-- grid container -->
+      </section>
+      <!-- projects -->
+    </main>
 
     <footer class="relative bg-dark-grey" id="footer">
       <!-- pattern ring left bottom -->
